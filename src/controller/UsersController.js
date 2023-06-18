@@ -1,4 +1,4 @@
-import AppError from "../utils/AppError";
+const AppError = require("../utils/AppError");
 
 class UsersController {
     create(request, response) {
@@ -12,4 +12,4 @@ class UsersController {
     }
 }
 
-export default UsersController;
+module.exports = UsersController;
