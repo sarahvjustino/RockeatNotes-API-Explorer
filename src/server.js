@@ -4,13 +4,14 @@ const AppError = require('./utils/AppError');
 const UploadConfig = require('./configs/upload');
 
 const express = require('express');
-
 const routes = require('./routes');
+const cors = require('cors');
 
 migrationsRun()
 
 const app = express();
-app.use(express.json())
+app.use(cors());
+app.use(express.json());
 
 app.use("/files", express.static(UploadConfig.UPLOAD_FOLDER));
 
