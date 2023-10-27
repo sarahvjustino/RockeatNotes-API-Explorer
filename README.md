@@ -1,4 +1,4 @@
-# Rocketnotes - Gerenciador de Links Úteis
+# Rocketnotes - Gerenciador de Anotações
 
 Esta aplicação é uma ferramenta fullstack que permite aos usuários salvar e gerenciar anotações de forma rápida e eficiente. O backend é desenvolvido em Node.js com Express e utiliza o banco de dados SQLite para armazenar informações relacionadas a notas e usuários.
 
